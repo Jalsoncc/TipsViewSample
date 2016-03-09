@@ -23,9 +23,9 @@ Usage
                 .build();
         tipsView.show(this);
 
-##Other Usage
-
-you can set drawable object to TipsView 
+Other Usage
+====
+        you can set drawable object to TipsView 
                 TipsView tipsView  = new TipsBuilder(this)
 	  		.setTarget(tv_smart_title)
 	  		.setTitleColor(Color.parseColor("#fa5f5f"))
