@@ -3,12 +3,12 @@ A Sample that shows tip View when your app first launching
 
 Usage
 ====
-TipsView tipsView  = new TipsBuilder(this)
+        TipsView tipsView  = new TipsBuilder(this)
                 .setCircle(false)
                 .setCallback(new TipsViewInterface() {
                     @Override
                     public void gotItClicked() {
-                        Toast.makeText(getApplicationContext(),"click",Toast.LENGTH_LONG).show();
+                        //click!
                     }
                 })
                 .setDescription("This is helloworld")
@@ -26,7 +26,7 @@ TipsView tipsView  = new TipsBuilder(this)
 ##Other Usage
 
 you can set drawable object to TipsView 
-TipsView tipsView  = new TipsBuilder(this)
+                TipsView tipsView  = new TipsBuilder(this)
 	  		.setTarget(tv_smart_title)
 	  		.setTitleColor(Color.parseColor("#fa5f5f"))
 	  		.setDrawable(getResources().getDrawable(R.drawable.tips_2))
